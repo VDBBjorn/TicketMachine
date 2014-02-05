@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wsvn/p3ga5/!svn/ver/221/Project_Centric/src/main/java/service
+END
+JpaStoreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wsvn/p3ga5/!svn/ver/185/Project_Centric/src/main/java/service/JpaStoreDao.java
+END
+VoucherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wsvn/p3ga5/!svn/ver/102/Project_Centric/src/main/java/service/VoucherDao.java
+END
+GenericDaoJpa.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wsvn/p3ga5/!svn/ver/116/Project_Centric/src/main/java/service/GenericDaoJpa.java
+END
+JpaVoucherDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wsvn/p3ga5/!svn/ver/102/Project_Centric/src/main/java/service/JpaVoucherDao.java
+END
+JpaProductPackingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/wsvn/p3ga5/!svn/ver/189/Project_Centric/src/main/java/service/JpaProductPackingDao.java
+END
+LoyaltyCardDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wsvn/p3ga5/!svn/ver/160/Project_Centric/src/main/java/service/LoyaltyCardDao.java
+END
+GenericDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wsvn/p3ga5/!svn/ver/84/Project_Centric/src/main/java/service/GenericDao.java
+END
+ReceiptDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wsvn/p3ga5/!svn/ver/51/Project_Centric/src/main/java/service/ReceiptDao.java
+END
+JpaCustomerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wsvn/p3ga5/!svn/ver/91/Project_Centric/src/main/java/service/JpaCustomerDao.java
+END
+JpaCategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wsvn/p3ga5/!svn/ver/146/Project_Centric/src/main/java/service/JpaCategoryDao.java
+END
+ProductPackingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wsvn/p3ga5/!svn/ver/189/Project_Centric/src/main/java/service/ProductPackingDao.java
+END
+JpaLoyaltyCardDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wsvn/p3ga5/!svn/ver/151/Project_Centric/src/main/java/service/JpaLoyaltyCardDao.java
+END
+JpaReceiptDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wsvn/p3ga5/!svn/ver/51/Project_Centric/src/main/java/service/JpaReceiptDao.java
+END
+CategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wsvn/p3ga5/!svn/ver/146/Project_Centric/src/main/java/service/CategoryDao.java
+END
+CustomerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wsvn/p3ga5/!svn/ver/91/Project_Centric/src/main/java/service/CustomerDao.java
+END
+Barcoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wsvn/p3ga5/!svn/ver/187/Project_Centric/src/main/java/service/Barcoder.java
+END
+StoreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wsvn/p3ga5/!svn/ver/185/Project_Centric/src/main/java/service/StoreDao.java
+END

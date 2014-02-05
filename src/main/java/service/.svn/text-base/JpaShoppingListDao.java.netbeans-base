@@ -1,0 +1,46 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package service;
+
+import domain.Customer;
+import domain.ShoppingList;
+import javax.persistence.NoResultException;
+import javax.persistence.Query;
+import org.springframework.stereotype.Repository;
+
+/**
+ *
+ * @author Kenneth
+ */
+@Repository("shoppingList")
+public class JpaShoppingListDao extends GenericDaoJpa<ShoppingList> implements ShoppingListDao {
+
+    public JpaShoppingListDao() {
+        super(ShoppingList.class);
+    }
+
+    @Override
+    public ShoppingList getShoppingList(Customer customer) {
+        try {
+            Query q = em.createQuery(
+                    "SELECT s FROM ShoppingList s "
+                   
+                    + "WHERE s.customer = :customer "
+                    );
+            
+//            select * from ShoppingList
+//            join ShoppingList_Product on ShoppingList.id = ShoppingList_Product.ShoppingList_id
+//            join Product on ShoppingList_Product.ShoppingList_id = ShoppingList.id
+//            where ShoppingList.customer_id = 123456
+//            Order by Product.categoryId
+        
+            q.setParameter("customer", customer);
+            return (ShoppingList) q.getSingleResult();
+        } catch (NoResultException e) {
+            return null;
+        }
+    }
+
+}

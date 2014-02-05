@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wsvn/p3ga5/!svn/ver/330/Project_Centric/src/main/webapp/WEB-INF
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wsvn/p3ga5/!svn/ver/47/Project_Centric/src/main/webapp/WEB-INF/applicationContext.xml
+END
+dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wsvn/p3ga5/!svn/ver/84/Project_Centric/src/main/webapp/WEB-INF/dispatcher-servlet.xml
+END
+spring-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wsvn/p3ga5/!svn/ver/91/Project_Centric/src/main/webapp/WEB-INF/spring-security.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wsvn/p3ga5/!svn/ver/2/Project_Centric/src/main/webapp/WEB-INF/beans.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wsvn/p3ga5/!svn/ver/102/Project_Centric/src/main/webapp/WEB-INF/web.xml
+END
+tiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wsvn/p3ga5/!svn/ver/153/Project_Centric/src/main/webapp/WEB-INF/tiles.xml
+END
