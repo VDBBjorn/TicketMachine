@@ -1,0 +1,154 @@
+
+/* 
+    Created on : 8-nov-2013, 13:33:59
+    Author     : Bjorn
+*/
+html {
+  height: 100%;
+}
+body {
+  background: url(../images/login_wallpaper.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 979px) {
+  body {
+    padding-top: 80px;
+  }
+}
+.red {
+  color: #e05b5b;
+}
+#login-wrapper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-top: -185px;
+  margin-left: -235px;
+  padding: 25px 25px 0px 25px;
+  width: 420px;
+  background: white;
+  text-align: center;
+}
+.brand {
+    font-size: 28px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+    font-family: 'Roboto', sans-serif;
+}
+.brand:hover {
+    font-size: 28px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+     -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  background:#e05b5b;
+  color:#ecf0f1;
+}
+.btn:hover {
+    font-family: 'Roboto', sans-serif;
+     -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  background:#e05b5b;
+}
+.language {
+    color:#333333;
+    margin-top:5px;
+}
+.language a {
+    color:#333333;
+}
+.form-control {
+  border-width: 2px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ecf0f1;
+}
+.form-control:focus {
+  border-color: #e05b5b;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.login-form legend {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+.login-form .body {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+.login-form .footer {
+  margin-top: 20px;
+}
+.login-form .footer .checkbox.inline {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.2s ease;
+  font-weight: 400;
+  font-size: 18px;  
+}
+.login-form .footer .checkbox.inline input[type="checkbox"] {
+  float: none;
+  margin-top: -4px;
+}
+.login-form .footer .btn {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 7px 30px;
+  background-image: none;
+}
+
+.login-form label {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+@media (max-width: 980px) {
+  #login-wrapper {
+    position: relative;
+    top: 0;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 495px) {
+  #login-wrapper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+}
