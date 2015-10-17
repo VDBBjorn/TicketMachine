@@ -1,37 +1,0 @@
-10
-
-dir
-368
-https://tinfbo2.hogent.be/wsvn/p3ga5/Project_Centric/src/main/java
-https://tinfbo2.hogent.be/wsvn/p3ga5
-
-
-
-2013-12-16T13:11:40.787933Z
-334
-105007bv
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-4c5a91b9-3b29-488b-8b9c-09c5d6287ac2
-
-controller
-dir
-
-domain
-dir
-
-service
-dir
-
